@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sinar Angsa Media</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!--leader-->
+	<div class="bg-loader">
+		<div class="loader">
+			
+		</div>
+	</div>
+
+	<!--header-->
+	<div class="medsos">
+		<div class="container">
+			<ul>
+				<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<h1><a href="index.html">Sinar Angsa Media</a></h1>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="active"><a href="work.html">Work</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+
+		<!--label-->
+	<section class="label">
+		<div class="container">
+			<p>Home / Work</p>
+		</div>
+	</section>
+
+	
+
+	<!--service-->
+	<section class="work">
+		<div class="container">
+			<h3>Work</h3>
+			<div class="box">
+				<div class="col-2">
+					<div class="icon"></div>
+					<img src="img/agaskar2.jpg" width="350px" height="550px"  onclick="window.open('agaskar.html')">
+					<h4>Agaskar</h4>
+				</div>
+				<div class="col-2">
+					<div class="icon"></div>
+					<img src="img/heaven1.jpg" width="350px" height="550px" onclick="window.open('heaven.html')">
+					<h4>Heaven</h4>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".bg-loader").hide();
+		})
+	</script>
+</body>
+</html>
